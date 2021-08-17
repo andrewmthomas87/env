@@ -7,10 +7,6 @@ fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME/tools/chroma-0.9.2-darwin-amd64:$PATH
-export PATH=$HOME/tools/protoc-3.17.3-osx-x86_64/bin:$PATH
-export PATH="$PATH:$(go env GOPATH)/bin"
-export PATH=$HOME/tools/protoc-gen-grpc-web-1.2.1-darwin-x86_64:$PATH
 
 # autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
@@ -125,11 +121,6 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # tabtab source for packages
 # uninstall by removing these lines
